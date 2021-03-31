@@ -43,8 +43,21 @@ Aby uruchomić program, należy wywołać polecenie
 w głównym katalogu projektu.
 Kolejne argumenty programu to:
 - int elevatorsNumber - liczba wind (domyślnie 3)
-- int floorsNumber - liczba pięter (domyślnie 5)
-- int pickupNumber - liczba zgłoszeń (domyślnie 8)
+- int floorsNumber - liczba pięter (domyślnie 4)
+- int pickupNumber - liczba zgłoszeń (domyślnie 5)
 - boolean randomInitialState - początkowy stan wind: true - losowy, false - parter (domyślnie false)
 
 ### Przykładowe uruchomienie:
+Z domyślnymi parametrami:
+```
+> java ElevatorSystemSimulation 
+```
+![alt text](https://github.com/kopeadri/ElevatorSystem/blob/main/przyklad_domyslne.jpg)
+
+Z własnymi parametrami:
+```
+> java ElevatorSystemSimulation  4 4 
+```
+![alt text](https://github.com/kopeadri/ElevatorSystem/blob/main/przyklad.JPG)
+
+## 
