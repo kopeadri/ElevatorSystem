@@ -56,8 +56,12 @@ Z domyślnymi parametrami:
 
 Z własnymi parametrami:
 ```
-> java ElevatorSystemSimulation  4 4 
+> java ElevatorSystemSimulation  4 3 8 
 ```
 ![alt text](https://github.com/kopeadri/ElevatorSystem/blob/main/przyklad.JPG)
 
-## 
+## Ulepszenia
+- optymalizacja algorytmu
+  - usunięcie blokady dla windy z dwoma piętrami docelowymi
+  - wprowadzenie kolejki/listy z kolejnymi piętrami docelowymi dla danej windy
+  - optymalizacja przydzielania wind
