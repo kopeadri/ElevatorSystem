@@ -62,6 +62,6 @@ Z własnymi parametrami:
 
 ## Ulepszenia
 - optymalizacja algorytmu
-  - usunięcie blokady dla windy z dwoma piętrami docelowymi
+  - usunięcie blokady dla windy z dwoma piętrami docelowymi (pierwsze to piętro na, którym znajduje się pasażer, a drugie to jego piętro docelowe)
   - wprowadzenie kolejki/listy z kolejnymi piętrami docelowymi dla danej windy
   - optymalizacja przydzielania wind
