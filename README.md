@@ -31,6 +31,8 @@ Działanie systemu polega na pojedynczym przetwarzaniu kolejnych przywołań win
 
 
 ### ElevatorSystemSimulation
+Główny plik programu umożliwiajacy przeprowadzenie symulacji zgodnie z parametrami przekazanymi jako argumenty wejściowe programu.
+Tworzy obiekt ElevatorSystem, generuje losowe zgłoszenia i wykonuje kolejne kroki symulacji. Zgłoszenia przetwarzane są pojedynczo pomiędzy krokami symulacji. Symulacja trwa dopóki nie zostaną przetworzone wszystkie zgłoszenia i wszystkie windy nie znajdą się w stanie spoczynku.
 
 
 ## Uruchomienie programu
@@ -44,3 +46,5 @@ Kolejne argumenty programu to:
 - int floorsNumber - liczba pięter (domyślnie 5)
 - int pickupNumber - liczba zgłoszeń (domyślnie 8)
 - boolean randomInitialState - początkowy stan wind: true - losowy, false - parter (domyślnie false)
+
+### Przykładowe uruchomienie:
